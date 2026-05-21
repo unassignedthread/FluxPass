@@ -5,3 +5,4 @@ target/
 .DS_Store
 *.jar
 .vscode/
+dependency-reduced-pom.xml
