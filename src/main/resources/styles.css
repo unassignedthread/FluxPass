@@ -1,0 +1,173 @@
+.root {
+    -fx-font-family: "Segoe UI", "Ubuntu", "Noto Sans", sans-serif;
+    -fx-font-size: 13px;
+    -fx-base: #f5f5f5;
+    -fx-background: #f5f5f5;
+}
+
+.toolbar {
+    -fx-padding: 6 10;
+    -fx-spacing: 8;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 0 0 1 0;
+}
+
+.search-field {
+    -fx-pref-width: 260px;
+    -fx-padding: 5 8;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-border-color: #d0d0d0;
+    -fx-border-width: 1;
+    -fx-background-color: #f9f9f9;
+}
+
+.search-field:focused {
+    -fx-border-color: #2196F3;
+    -fx-background-color: #ffffff;
+}
+
+.tree-view {
+    -fx-background-color: #f5f5f5;
+    -fx-border-color: transparent;
+}
+
+.tree-cell {
+    -fx-padding: 3 6;
+    -fx-background-color: transparent;
+    -fx-text-fill: #424242;
+}
+
+.tree-cell .text {
+    -fx-fill: #424242;
+}
+
+.tree-cell:selected {
+    -fx-background-color: #e3f2fd;
+}
+
+.tree-cell:selected .text {
+    -fx-fill: #1565C0;
+}
+
+.tree-cell:filled:hover {
+    -fx-background-color: #eeeeee;
+}
+
+.tree-cell:selected .text {
+    -fx-fill: #1565C0;
+}
+
+.details-panel {
+    -fx-padding: 16;
+    -fx-spacing: 10;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 0 0 0 1;
+}
+
+.details-label {
+    -fx-font-size: 11px;
+    -fx-text-fill: #757575;
+    -fx-font-weight: bold;
+}
+
+.details-value {
+    -fx-font-size: 13px;
+    -fx-text-fill: #212121;
+    -fx-padding: 2 0 6 0;
+}
+
+.password-field {
+    -fx-font-family: "Monospace", "Courier New", monospace;
+    -fx-font-size: 13px;
+}
+
+.metadata-area {
+    -fx-font-family: "Monospace", "Courier New", monospace;
+    -fx-font-size: 12px;
+    -fx-background-color: #fafafa;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 4;
+    -fx-padding: 8;
+}
+
+.button {
+    -fx-padding: 5 14;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+    -fx-cursor: hand;
+}
+
+.button-primary {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.button-primary:hover {
+    -fx-background-color: #1976D2;
+}
+
+.button-danger {
+    -fx-background-color: #f44336;
+    -fx-text-fill: white;
+}
+
+.button-danger:hover {
+    -fx-background-color: #d32f2f;
+}
+
+.button-default {
+    -fx-background-color: #eeeeee;
+    -fx-text-fill: #424242;
+}
+
+.button-default:hover {
+    -fx-background-color: #e0e0e0;
+}
+
+.empty-state {
+    -fx-font-size: 15px;
+    -fx-text-fill: #9e9e9e;
+}
+
+.dialog-pane {
+    -fx-padding: 16;
+    -fx-spacing: 8;
+}
+
+.dialog-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #616161;
+    -fx-font-weight: bold;
+}
+
+.menu-bar {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 0;
+}
+
+.split-pane {
+    -fx-background-color: transparent;
+}
+
+.split-pane-divider {
+    -fx-background-color: #e0e0e0;
+    -fx-padding: 0 1;
+}
+
+.alert {
+    -fx-background-color: #ffffff;
+}
+
+.alert > *.button-bar > *.container {
+    -fx-background-color: #ffffff;
+}
+
+.alert .content.label {
+    -fx-text-fill: #424242;
+}
