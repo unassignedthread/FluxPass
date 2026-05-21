@@ -1,4 +1,5 @@
 #!/bin/bash
+export _JAVA_AWT_WM_NONREPARENTING=1
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 JAR="$SCRIPT_DIR/target/fluxpass.jar"
 
